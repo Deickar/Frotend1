@@ -1,0 +1,52 @@
+ * {
+   font-family: Arial;
+ }
+
+
+ html,
+ body {
+   margin: 0;
+   padding: 0;
+ }
+
+ .cta-container {
+   /*aplica una imgen nuetro contnedor*/
+   background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-estilo-papel_52683-66443.jpg?w=900&t=st=1697252118~exp=1697252718~hmac=c828b4d3b79a4f8c77d76ef1d503fd6b1666bcb1e7b4434ad3dbaffaaadc84ff);
+   /*Esto cubre complemtamente nuestro contenedor*/
+   background-size: cover;
+   /*Centra la imagen de fondo*/
+   background-position: center center;
+   /*no se ripite la imagen */
+   background-repeat: no-repeat;
+   /*fondo fijo en la ventana */
+   background-attachment: fixed;
+   /*opacidad*/
+   opacity: 0.9;
+   /*alineacion del contenido al centro */
+   text-align: center;
+   padding: 70px;
+
+ }
+
+ .cta-text {
+   font-size: 24px;
+ }
+
+ .cta-button {
+   /*colo de fondo del boton*/
+   background-color: #ff5733;
+   /*colo de la eltrad de boton*/
+   color: fff;
+   /*releno del boton*/
+   padding: 10px 20px;
+   /*no tendra bordes */
+   border: none;
+   /*bordes redondos*/
+   border-radius: 5px;
+
+ }
+
+ .cta-button:hover {
+   /*Cclor al pasar*/
+   background-color: #fc2a00;
+ }
